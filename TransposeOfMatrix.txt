@@ -1,0 +1,20 @@
+import java.util.*;
+public class TransposeOfMatrix
+{
+	public static void main(String[] args) {
+	           Scanner sc=new Scanner(System.in);
+	           int a=sc.nextInt();
+	           int b[][]=new int[a][a];
+	           for(int i=0;i<a;i++){
+	               for(int j=0;j<a;j++){
+	                   b[i][j]=sc.nextInt();
+	               }
+	           }
+	           for(int i=0;i<a;i++){
+	               for(int j=0;j<a;j++){
+	                  System.out.print(b[j][i]+" ");
+	               }
+	               System.out.println();
+	           }
+	}
+}
